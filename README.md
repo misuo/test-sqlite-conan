@@ -1,6 +1,6 @@
 This is a small C++ `Hello World` program testing a project build using [CMake](https://en.wikipedia.org/wiki/CMake) as build generator with integrated [conan.io](https://www.conan.io/) package manager consuming (using and linking) with [SQLite3](https://sqlite.org/) library.
 
-The C++ program [main.cpp](main.cpp) itself is trivial:
+The C++ program [main.cpp](src/main.cpp) itself is trivial:
 
   ~~~~cpp
   #include <iostream>
