@@ -30,17 +30,17 @@ First establish out-of-source `build/` folder, so that source folder is not poll
   $ cd build
   ~~~
 
-Initialize your project with *conan* - this is using the `conanfile.txt` specifying that SQLite (v3.15.2) is an dependency and that conan should integrate with *CMake*:
+Initialize your project with *conan* - this is using the [conanfile.txt](conanfile.txt) specifying that SQLite (v3.15.2) is an dependency and that conan should integrate with *CMake*:
 
   ~~~
   $ conan install ..
   ~~~
 
-If you see error *Try to build from source with --build* then do the following to build the actual SQLite library from its source:
-
-  ~~~
-  $ conan install --build SQLite3
-  ~~~
+> :bulb: If you see error *Try to build from source with --build* then do the following to build the actual SQLite library from its source:
+>
+>  ~~~
+>  $ conan install --build SQLite3
+>  ~~~
 
 Generate the build files using *CMake*:
 
