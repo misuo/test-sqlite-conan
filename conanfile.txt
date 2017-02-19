@@ -1,0 +1,6 @@
+[requires]
+sqlite3/3.15.2@jgsogo/stable
+
+[generators]
+cmake
+
